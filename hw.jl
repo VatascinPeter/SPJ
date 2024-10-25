@@ -26,4 +26,6 @@ function circlemat(n)
 end
 
 A = circlemat(10)
-return I + A + A^2 + A^3
+A2 = A * A
+A3 = A2 * A
+return I + A + A2 + A3
